@@ -1,0 +1,18 @@
+{
+  "name": "roadmap-world",
+  "version": "0.1.0",
+  "description": "A game-like 3D world map for app roadmaps: each completed step brings a new region of an island to life. Three.js + GSAP, with a React Native WebView wrapper.",
+  "main": "src/engine.js",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "private": true
+}
